@@ -1,0 +1,4 @@
+#Gibt 0 bis 5 aus
+
+for i in range(6):
+    print(i)
