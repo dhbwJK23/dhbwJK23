@@ -1,0 +1,8 @@
+# Berechnen einer Gesamtsumme 
+
+werteliste = [310, 3, 66, 74, 20]
+gesamt = 0 
+for zahlenwert in werteliste:
+    gesamt = gesamt + zahlenwert 
+
+print (gesamt)
