@@ -1,0 +1,7 @@
+// gibt Paarungen aus mit der Frage Freund oder Feind?
+cats = ["Charlie", "Max", "Simba"]
+dogs = ["Cooper", "Lucky", "Marley"]
+print("friend or foe: ")
+for x in cats:
+  for y in dogs:
+    print(x,"&", y,"?")
