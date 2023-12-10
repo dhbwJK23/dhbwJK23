@@ -1,0 +1,5 @@
+#gibt beliebige Zahl zwischen 1 und 10 aus
+
+  import random
+
+print(random.randrange(1, 10))
