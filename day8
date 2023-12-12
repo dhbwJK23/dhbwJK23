@@ -1,3 +1,3 @@
-#gibft letzten teil des Arrays aus
+#gibft letzten teil der Liste aus
 cars = ["Audi", "BMW", "Mercedes"]
 print(cars[-1])
