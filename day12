@@ -1,0 +1,8 @@
+#vergleicht 2 Variablen
+x = 143
+y = 7
+
+if y > x:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
