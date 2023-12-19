@@ -27,3 +27,5 @@ day13: zählen mit while Schleife
 day14: erste Klasse
 
 day15: turtle fun
+
+day16: turtle fun but adding a little bit of *speed*
