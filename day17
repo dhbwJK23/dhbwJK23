@@ -1,0 +1,23 @@
+#kleiner Rechner
+  import sys as sys
+
+x = int(input(" erste Zahl: "));
+y = int(input(" zweite Zahl: "));
+
+print("""Auswahl:\n 1. Addieren\n 2. Multiplizieren\n 3. Dividieren\n 4. Modulo\n 5. Subtraktion""")
+
+auswahl = int(input());
+
+if auswahl == 1:
+    print("Summe: ",x+y);
+elif auswahl == 2:
+    print("Produkt: ",x*y);
+elif auswahl == 3:
+    print("Quotient: ",x/y);
+elif auswahl == 4:
+    print("Modulus: ",x%y);
+elif auswahl == 5:
+    print("Differenz: ",x-y);
+else:
+    print("Eingabe nicht valide");
+
