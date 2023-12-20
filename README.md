@@ -29,3 +29,5 @@ day14: erste Klasse
 day15: turtle fun
 
 day16: turtle fun but adding a little bit of *speed*
+
+day17: erster kleiner Rechner mit if/elif 
