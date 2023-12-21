@@ -1,0 +1,3 @@
+#playing with boolean
+print(bool("Hello"))
+print(bool(15))
