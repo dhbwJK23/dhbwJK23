@@ -1,0 +1,12 @@
+#überprüft a ständig gegen b (6)
+while True:
+    a = int(input());
+    b = 6
+    if a < b:
+        print("a ist kleiner als 6")
+    elif a > b:
+        print("a ist größer als 6")
+    else:
+        print("a gleich b")
+
+
