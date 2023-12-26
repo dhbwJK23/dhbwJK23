@@ -1,0 +1,20 @@
+#Countdown zum neuen Jahr
+  import time
+
+def countdown_timer(days):
+    while days > 0:
+        print(f"Days remaining: {days} ")
+        time.sleep(86400)
+        days -= 1
+
+    print("Happy New Year!")
+
+def main():
+    try:
+        days = int(input("Days till newyear: "))
+        countdown_timer(days)
+    except ValueError:
+        print("Invalid input. Please enter a valid number of seconds.")
+
+if __name__ == "__main__":
+    main()
