@@ -1,0 +1,3 @@
+txt = "Creating a habit can mean you just learned a new skill"
+if "habit" in txt:
+  print("Yes, 'habit' is present.")
