@@ -1,0 +1,3 @@
+#umwandeln von int in float
+  f = 57
+print(float(f))
