@@ -1,0 +1,3 @@
+#als integer Eingeben als String ausgeben
+f = 57
+print(str(f))
