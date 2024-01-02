@@ -1,0 +1,4 @@
+#if you're happy and you know it clap your hands
+  x = input("Are you happy? Say that you are happy:")
+if "happy" in x:
+    print("clap those hands")
