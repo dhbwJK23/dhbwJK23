@@ -1,0 +1,8 @@
+#Zahlenpyramide
+  def zahlenpyramide(hoehe):
+  for zeile in range(hoehe):
+    for spalte in range(zeile + 1):
+      print(zeile + 1, end=" ")
+    print()
+
+zahlenpyramide(int(input("gib eine Zahle ein: ")))
