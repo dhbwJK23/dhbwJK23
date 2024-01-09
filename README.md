@@ -55,3 +55,5 @@ day28: andere Ausgabe eines Datentyps als Eingabe
 day29: Automatische Antwort
 
 day35: Zahlenpyramide
+
+day36: Suche mit RegEx
