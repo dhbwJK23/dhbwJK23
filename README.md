@@ -31,3 +31,27 @@ day15: turtle fun
 day16: turtle fun but adding a little bit of *speed*
 
 day17: erster kleiner Rechner mit if/elif 
+
+day18: playing with boolean
+
+day19: Ständiger Vergleich
+
+day20: Überprüfung des Datentyps
+
+day21: Merry Christmas
+
+day23: Countdown zum neuen Jahr
+
+day24: kleiner Vergleich
+
+day25: länge eines Arrays
+
+day26: überprüfen ob etwas in einem String vorkommt
+
+day27: ändern eines Datentyps
+
+day28: andere Ausgabe eines Datentyps als Eingabe
+
+day29: Automatische Antwort
+
+day35: Zahlenpyramide
