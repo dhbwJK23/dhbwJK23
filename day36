@@ -1,0 +1,6 @@
+#Suche nacch wörtern mit großem Z
+  import  re
+
+txt = "This is quite helpfull but not as helpfull as a holidy in Zanzibar would be right about now"
+x = re.search(r"\bZ\w+", txt)
+print(x.group())
