@@ -58,4 +58,6 @@ day35: Zahlenpyramide
 
 day36: Suche mit RegEx
 
-day37: Guidos Lasagna
+day37: Exercism: Guidos Lasagna
+
+day38: Exercism: Ghost Gobble Arcade Game
