@@ -61,3 +61,5 @@ day36: Suche mit RegEx
 day37: Exercism: Guidos Lasagna
 
 day38: Exercism: Ghost Gobble Arcade Game
+
+day39: Exercism: Currency Exchange
