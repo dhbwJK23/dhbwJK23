@@ -63,3 +63,5 @@ day37: Exercism: Guidos Lasagna
 day38: Exercism: Ghost Gobble Arcade Game
 
 day39: Exercism: Currency Exchange
+
+day40: Exercism: Meltdown Mitigation
