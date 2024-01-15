@@ -67,3 +67,5 @@ day39: Exercism: Currency Exchange
 day40: Exercism: Meltdown Mitigation
 
 day41: Exercism: Black Jack
+
+day42: Amount aus Liste
