@@ -69,3 +69,5 @@ day40: Exercism: Meltdown Mitigation
 day41: Exercism: Black Jack
 
 day42: Amount aus Liste
+
+day43: Exercism: Little Sister's Vocabulary
