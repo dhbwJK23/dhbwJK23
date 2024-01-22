@@ -75,3 +75,5 @@ day43: Exercism: Little Sister's Vocabulary
 day44: Exercism: Little Sister's Essay
 
 day46: Exercism: Card Games
+
+day49: Exercism: Chaitana's Colossal Coaster
