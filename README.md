@@ -83,3 +83,5 @@ day50: Exercism: Making the Grade
 day51: Exercism: Tisbury Treasure Hunt
 
 day52: Exercism: Inventory Management
+
+day53: Exercism: Mecha Munch Management
