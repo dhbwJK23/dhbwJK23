@@ -1,0 +1,44 @@
+#Mecha Munch Management
+def add_item(current_cart, items_to_add):
+    for item in items_to_add:
+        if item not in current_cart:
+            current_cart[item] = 0
+        current_cart[item] += 1
+    return current_cart
+
+
+
+def read_notes(notes):
+    return dict.fromkeys(notes, 1)
+        
+
+
+def update_recipes(ideas, recipe_updates):
+    ideas.update(recipe_updates)
+    return ideas
+    
+
+
+def sort_entries(cart):
+    sorted_cart = dict(sorted(cart.items()))
+    return sorted_cart
+
+
+
+def send_to_store(cart, isle_mapping):
+    fullfillment_cart = {}
+    for key, value in cart.items():
+        fullfillment_cart[key] = [value] + isle_mapping[key]
+    fullfillment_cart = dict(sorted(fullfillment_cart.items(), reverse = True))
+    return fullfillment_cart
+        
+
+
+def update_store_inventory(fulfillment_cart, store_inventory):
+    for key, value in fulfillment_cart.items():
+        store_inventory[key][0] -= value[0]
+        if not store_inventory[key][0]:
+            store_inventory[key][0] = "Out of Stock"
+    return store_inventory
+
+
