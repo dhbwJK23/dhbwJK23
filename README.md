@@ -86,4 +86,6 @@ day52: Exercism: Inventory Management
 
 day53: Exercism: Mecha Munch Management
 
-day55. Exercism: Locomotive Engineer
+day55: Exercism: Locomotive Engineer
+
+day56: Exercism: Cater Waiter
