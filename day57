@@ -1,0 +1,28 @@
+#Ellen's Alien Game
+class Alien:
+    total_aliens_created = 0
+
+    def __init__(self, x, y):
+        self.x_coordinate = x
+        self.y_coordinate = y
+        self.health = 3
+        Alien.total_aliens_created += 1
+
+    def hit(self):
+        self.health -= 1
+
+    def is_alive(self):
+        if self.health > 0:
+            return True
+        else:
+            False
+
+    def teleport(self, x_new, y_new):
+        self.x_coordinate = x_new
+        self.y_coordinate = y_new
+
+    def collision_detection(self, other_object):
+        pass
+
+def new_aliens_collection(positions):
+    return [Alien(x,y) for x, y in positions]
