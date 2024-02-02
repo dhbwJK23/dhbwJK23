@@ -1,0 +1,28 @@
+#Plane Ticket
+
+def generate_seat_letters(number):
+    letters = "ABCD"
+    for i in range(number):
+        yield letters[i % 4]
+
+
+def generate_seats(number):
+    letters_generator = generate_seat_letters(number)
+    i = 0
+    while i<number:
+        letter = next(letters_generator)
+        current_row = (i//4) + 1
+        row_repr = current_row if current_row < 13 else current_row+1
+        yield str(row_repr)+ letter
+        i+=1
+
+
+def assign_seats(passengers):
+    number_passengers = len(passengers)
+    seat_generator = generate_seats(number_passengers)
+    return {passenger:seat for passenger,seat in zip(passengers, seat_generator)}
+
+    
+def generate_codes(seat_numbers, flight_id):
+    for seat in seat_numbers:
+        yield (seat + flight_id).ljust(12, "0")
