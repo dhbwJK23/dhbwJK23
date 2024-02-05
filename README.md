@@ -94,3 +94,5 @@ day57: Exercism: Ellen's Alien Game
 
 day59: Exercism: Plane Ticket
 
+day62: Exercism: Leap
+
