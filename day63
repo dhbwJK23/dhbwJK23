@@ -1,0 +1,43 @@
+#Triangle
+  def equilateral(sides):
+    a = sides[0]
+    b = sides[1]
+    c = sides[2]
+    if a <= 0 or b <= 0 or c <= 0:
+        return False
+    elif a == b == c:
+        return True
+    else:
+        return False
+
+
+def isosceles(sides):
+    sides.sort()
+    a = sides[0]
+    b = sides[1]
+    c = sides[2]
+    if equilateral(sides) == True:
+        return True
+    elif (a + b) <= c:
+        return False
+    elif (a == b or a == c or b == c):
+        return True
+    elif a <= 0 or b <= 0 or c <= 0:
+        return False
+    else:
+        return False
+
+
+def scalene(sides):
+    sides.sort()
+    a = sides[0]
+    b = sides[1]
+    c = sides[2]
+    if equilateral(sides) == True or isosceles(sides) == True:
+        return False
+    elif (c - (a+b)) <= 0 and ((a + b >= c) or (b + c >= a) or (a + c >= b)) == True:
+        return True
+    elif a <= 0 or b <= 0 or c <= 0:
+        return False
+    else:
+        return False
