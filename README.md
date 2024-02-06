@@ -96,3 +96,5 @@ day59: Exercism: Plane Ticket
 
 day62: Exercism: Leap
 
+day63: Exercism: Triangle
+
