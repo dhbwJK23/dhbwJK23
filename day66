@@ -1,0 +1,11 @@
+#Armstrong Numbers
+  def is_armstrong_number(number):
+    length = len(str(number))
+    digit = str(number)
+    x = 0
+    for i in range(length):
+        x = (x + (int(digit[i]) ** length))
+    if x == number:
+        return True
+    else:
+        return False
