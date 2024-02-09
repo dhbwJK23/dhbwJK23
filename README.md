@@ -100,3 +100,4 @@ day63: Exercism: Triangle
 
 day65: Exercism: Grains
 
+day66: Exercism: Armstrong Numbers
