@@ -103,3 +103,5 @@ day65: Exercism: Grains
 day66: Exercism: Armstrong Numbers
 
 day68: Exercism: Collatz Conjecture
+
+day69: Exercism: Bob
